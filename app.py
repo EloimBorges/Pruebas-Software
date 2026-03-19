@@ -14,4 +14,4 @@ def autenticar_usuario(username, password):
     if usuarios[username] != password:
         return {"success": False, "message": "Contraseña incorrecta", "response_time_ms": 80}
 
-    return {"success": True, "message": "Acceso concedido", "response_time_ms": 60}
+    return {"success": True, "message": "Acceso permitido", "response_time_ms": 60}
